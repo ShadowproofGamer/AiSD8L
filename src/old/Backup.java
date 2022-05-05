@@ -1,3 +1,8 @@
+package old;
+
+import old.ArrayBubbleSort;
+import old.ArrayInsertSort;
+
 public class Backup {
     public static long version1(int[] sequence, int[] array) {
         long start = System.currentTimeMillis();
@@ -18,7 +23,7 @@ public class Backup {
             //System.out.println(Arrays.toString(array));
         }
 
-        //ArrayInsertSort.sort(array);
+        //old.ArrayInsertSort.sort(array);
         long stop = System.currentTimeMillis();
         return (stop-start);
     }

@@ -1,3 +1,5 @@
+package old;
+
 class ShellSort {
     /* An utility function to print array of size n*/
     static void printArray(int[] arr) {
